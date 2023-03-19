@@ -4,6 +4,7 @@ import bootand
 from pyrogram import Client
 from pyrogram import filters
 # import requests
+# from _thread import start_new_thread
 
 
 #-----------------------------------
@@ -39,12 +40,6 @@ l6.place(x=430, y=530)
 l7 = Label(root, text='Phon Number',bg='Sky blue')
 l7.place(x=30, y=680)
 
-# -----------------------------------------------
-# def log():
-#     api_id.get()
-#     api_hash.get()
-    # phon.get()
-# -----------------------------------------------
 
 # ---------Entries---------
 
@@ -185,9 +180,8 @@ b7.place(x=10, y=550)
 b8 = Button(root, text='add', width=12 , command=add_command)
 b8.place(x=120, y=590)
 
-# b5 = Button(root, text='log in', width=12,command=log)
-# b5.place(x=10, y=60)
 
 
 view_command()
 root.mainloop()
+# start_new_thread()
